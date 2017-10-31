@@ -1,0 +1,68 @@
+// normalize
+
+//@import '../styles/normalize.less';
+
+// fonts & variables
+
+@import '../styles/helpers/variables.less';
+@import '../styles/helpers/sprite.less';
+@import '../styles/fonts.css';
+
+@import '../blocks/block-header/mob-header.less';
+@import '../blocks/block-main-screen/mob-main-screen.less';
+@import '../blocks/block-main-slider/mob-main-slider.less';
+@import '../blocks/block-rewarding/mob-rewarding.less';
+@import '../blocks/block-footer/mob-footer.less';
+@import '../blocks/block-popups/mob-popups.less';
+@import '../styles/custom.less';
+
+@import '../blocks/block-header/header.less';
+@import '../blocks/block-main-screen/main-screen.less';
+@import '../blocks/block-main-slider/main-slider.less';
+@import '../blocks/block-rewarding/rewarding.less';
+@import '../blocks/block-footer/footer.less';
+@import '../blocks/block-popups/popups.less';
+@import '../styles/custom.less';
+
+//@import '../styles/default.less';
+
+
+
+// SETTINGS //
+
+// animation
+
+a, a:hover, li, img, input, textarea {
+	transition: all 0.5s ease-in-out;
+}
+
+// body
+
+body {
+	cursor: default;
+	overflow-x: hidden !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+	font: 14px 'tahoma';
+	color: #f00 !important;
+}
+
+.icon-1 {
+	display: inline-block;
+    .sprite(@l-icon-1);
+}
+
+.icon-2 {
+	display: inline-block;
+    .sprite(@l-icon-2);
+}
+
+.icon-3 {
+	display: inline-block;
+    .sprite(@l-icon-1);
+}

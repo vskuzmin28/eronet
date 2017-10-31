@@ -1,0 +1,121 @@
+@media only screen and (min-width : @mobile) and  (max-width : @desktop) {
+
+	.hr-white {
+		margin: 18px auto 0 auto;
+		display: block;
+		width: 34px;
+		height: 3px;
+		background: @white;
+	}
+
+	// footer
+
+	.footer {
+		height: auto;
+		background: @pink;
+		position: relative;
+	}
+
+	.footer-couach {
+		display: none;
+		position: absolute;
+		width: 534px;
+		height: 560px;
+		margin-top: -40px;
+		margin-left: -80px;
+	}
+
+	// socials icons
+
+	.socials {
+		margin-top: 30px;
+		height: auto;
+		overflow: hidden;
+
+		li {
+			margin: 0 !important;
+			list-style: none;
+			width: 68px;
+			height: 88px;
+			float: left;
+			margin-right: 20px !important;
+			margin-bottom: 20px !important;
+
+			&:nth-child(8) {
+				margin-right: 0 !important;
+			}
+
+			&:nth-child(9) {
+				margin: 0 auto !important;
+				float: none !important;
+			}
+
+		}
+
+		li:nth-child(8) {
+			a, a:hover {
+				img {
+					margin-left: 10px !important;
+				}
+			}
+		}
+
+		li a, li a:hover {
+			display: block;
+			width: 68px;
+			text-decoration: none;
+
+			p {
+				margin-top: 10px;
+				text-align: center;
+				font: 16px 'MyriadProRegular' !important;
+				color: @white !important;
+			}
+
+			img {
+				display: block !important;
+				margin: 0 auto !important;
+				width: 60px;
+				height: 60px;
+			}
+
+			&:hover {
+
+				img {
+					transform: rotate(360deg);
+				}
+
+				p {
+					font-weight: bold !important;
+					text-decoration: none !important;
+				}
+			}
+
+		}
+	}
+
+	// footer information
+
+	.footer-info {
+		height: auto;
+		text-align: center;
+		color: @white;
+
+		p {
+			font: 30px 'MyriadProRegular' !important;
+			color: @white !important;
+
+			span {
+				font-family: 'MyriadProBold' !important;
+			}
+
+		}
+
+		h4 {
+			font: 42px 'CANDARA';
+			font-weight: bold;
+		}
+
+	}
+
+}
