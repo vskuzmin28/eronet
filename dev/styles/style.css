@@ -66,6 +66,12 @@ p {
     height: 4px;
     background: #fff;
   }
+  .about__simulation {
+    margin: 20px 0 0 100px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
   .main-screen {
