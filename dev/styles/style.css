@@ -203,7 +203,7 @@ p {
   }
   .callback__form {
     margin: 0 auto;
-    width: 850px;
+    width: auto;
     color: #fff;
   }
   .callback__form input[type="text"] {
