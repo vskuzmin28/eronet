@@ -1,31 +1,52 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
-	// main screen
+	// about
 
-	.main-screen {
-		height: 1088px;
-		overflow: hidden;
-		background: url('../img/main-screen.jpg') no-repeat center;
+	.about {
+		padding: 110px 0;
+		position: relative;
+		height: auto;
+		background: url('../img/gradient-bg.jpg') no-repeat center;
 		background-size: cover;
-		color: @white;
+	}
 
-		h2 {
-			margin-top: 282px;
-			margin-bottom: -20px;
-			font: 75px @akr-bold;
-			text-transform: uppercase;
-		}
+	.about__content {
+		width: 509px;
+		height: 509px;
+		background: url('../img/border-gradient.png') no-repeat;
+	}
+
+	.about__content__body {
+		margin: 35px 0 0 80px;
+		position: absolute;
+		width: 500px;
+		height: 500px;
 
 		h3 {
-			font: 51px @akr-regular;
+			font: 48px @akr-semibold;
 			text-transform: uppercase;
+			color: @white;
 		}
 
 		p {
-			font: 24px @akr-extralight;
+			font: 16px @akr-light;
 			color: @white !important;
 		}
 
+	}
+
+	.hr-small-white {
+		margin-bottom: 14px;
+		width: 75px;
+		height: 4px;
+		background: @white;
+	}
+
+	.about__simulation {
+		margin: 20px 0 0 100px;
+		position: absolute;
+		width: 500px;
+		height: 500px;
 	}
 
 }
