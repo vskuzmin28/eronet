@@ -1,21 +1,17 @@
 @import '../styles/fonts.css';
-.btn {
-  display: inline-block;
-  padding: 0 56px !important;
-  height: 76px;
-  border-radius: 6px;
+.title-block {
+  height: auto;
+  text-align: center;
 }
-.btn-blue {
-  background: #0fb9bd;
-  font: 30px 'CANDARA';
-  color: #f02c60;
+.title-block h3 {
+  font: 48px 'akrobatbold';
   text-transform: uppercase;
-  line-height: 76px;
-  font-weight: bold;
+  color: #3f66c8;
 }
-.btn-blue:hover {
-  background: #f02c60;
-  color: #fff;
+.title-block p {
+  font: 30px 'akrobatbold';
+  text-transform: uppercase;
+  color: #c02c9b !important;
 }
 a,
 a:hover,
@@ -38,11 +34,32 @@ p {
 }
 @media only screen and (min-width: 1200px) {
   .advantages {
-    padding: 195px 0;
+    padding: 195px 0 225px 0;
     height: auto;
     overflow: hidden;
     background: url('../img/advantages-bg.jpg') no-repeat center;
     background-size: cover;
+  }
+  .advantages__content {
+    height: auto;
+    margin: 60px auto 0 auto;
+  }
+  .advantages__content__item {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 230px;
+    text-align: center;
+  }
+  .advantages__content__item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 160px;
+    height: auto;
+  }
+  .advantages__content__item p {
+    font: 16px 'akrobatregular';
+    color: #3f66c8 !important;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
@@ -333,16 +350,6 @@ p {
     padding: 38px 0 58px 0;
     background: #fff;
     text-align: center;
-  }
-  .gift h3 {
-    font: 48px 'akrobatbold';
-    text-transform: uppercase;
-    color: #3f66c8;
-  }
-  .gift p {
-    font: 30px 'akrobatbold';
-    text-transform: uppercase;
-    color: #c02c9b !important;
   }
   .hr-title-purple {
     margin: 6px auto 16px auto;
