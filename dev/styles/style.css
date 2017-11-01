@@ -72,95 +72,38 @@ p {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .hr-white {
-    margin: 18px auto 0 auto;
-    display: block;
-    width: 34px;
-    height: 3px;
-    background: #fff;
-  }
   .footer {
-    height: auto;
-    background: #f02c60;
+    padding: 52px 0;
+    background: #191d27;
     position: relative;
   }
-  .footer-couach {
-    display: none;
-    position: absolute;
-    width: 534px;
-    height: 560px;
-    margin-top: -40px;
-    margin-left: -80px;
+  .footer__logo {
+    margin: 30px 0 0 -337px;
   }
-  .socials {
-    margin-top: 30px;
+  .footer__content {
     height: auto;
-    overflow: hidden;
   }
-  .socials li {
-    margin: 0 !important;
-    list-style: none;
-    width: 68px;
-    height: 88px;
-    float: left;
-    margin-right: 20px !important;
-    margin-bottom: 20px !important;
-  }
-  .socials li:nth-child(8) {
-    margin-right: 0 !important;
-  }
-  .socials li:nth-child(9) {
-    margin: 0 auto !important;
-    float: none !important;
-  }
-  .socials li:nth-child(8) a img,
-  .socials li:nth-child(8) a:hover img {
-    margin-left: 10px !important;
-  }
-  .socials li a,
-  .socials li a:hover {
-    display: block;
-    width: 68px;
-    text-decoration: none;
-  }
-  .socials li a p,
-  .socials li a:hover p {
-    margin-top: 10px;
-    text-align: center;
-    font: 16px 'MyriadProRegular' !important;
-    color: #fff !important;
-  }
-  .socials li a img,
-  .socials li a:hover img {
-    display: block !important;
-    margin: 0 auto !important;
-    width: 60px;
-    height: 60px;
-  }
-  .socials li a:hover img,
-  .socials li a:hover:hover img {
-    transform: rotate(360deg);
-  }
-  .socials li a:hover p,
-  .socials li a:hover:hover p {
-    font-weight: bold !important;
-    text-decoration: none !important;
-  }
-  .footer-info {
-    height: auto;
-    text-align: center;
+  .footer__content h4 {
+    margin-bottom: 30px;
+    font: 20px 'akrobatregular';
     color: #fff;
+    text-transform: uppercase;
   }
-  .footer-info p {
-    font: 30px 'MyriadProRegular' !important;
+  .footer__content p {
+    margin-bottom: 20px;
+    font: 15px 'akrobatregular';
+    text-transform: uppercase;
     color: #fff !important;
   }
-  .footer-info p span {
-    font-family: 'MyriadProBold' !important;
+  .footer__content a,
+  .footer__content a:hover {
+    margin-bottom: 34px;
+    display: block;
+    color: #fff;
+    font: 16px 'akrobatsemibold';
   }
-  .footer-info h4 {
-    font: 42px 'CANDARA';
-    font-weight: bold;
+  .footer__link-email {
+    font-family: 'akrobatsemibold' !important;
   }
 }
 @media only screen and (min-width: 1200px) {
