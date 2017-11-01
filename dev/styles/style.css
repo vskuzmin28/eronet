@@ -37,95 +37,10 @@ p {
   color: #f00 !important;
 }
 @media only screen and (min-width: 1200px) {
-  .hr-white {
-    margin: 18px auto 0 auto;
-    display: block;
-    width: 34px;
-    height: 3px;
-    background: #fff;
-  }
   .footer {
-    height: 520px;
-    background: #f02c60;
+    height: 270px;
+    background: #191d27;
     position: relative;
-  }
-  .footer-couach {
-    display: block;
-    position: absolute;
-    width: 534px;
-    height: 560px;
-    margin-top: -40px;
-    margin-left: -80px;
-  }
-  .socials {
-    margin-top: 90px;
-    height: 180px;
-    overflow: hidden;
-  }
-  .socials li {
-    margin: 0 !important;
-    list-style: none;
-    width: 68px;
-    height: 88px;
-    float: left;
-    margin-right: 20px !important;
-    margin-bottom: 20px !important;
-  }
-  .socials li:nth-child(8) {
-    margin-right: 0 !important;
-  }
-  .socials li:nth-child(9) {
-    margin: 0 auto !important;
-    float: none !important;
-  }
-  .socials li:nth-child(8) a img,
-  .socials li:nth-child(8) a:hover img {
-    margin-left: 10px !important;
-  }
-  .socials li a,
-  .socials li a:hover {
-    display: block;
-    width: 68px;
-    text-decoration: none;
-  }
-  .socials li a p,
-  .socials li a:hover p {
-    margin-top: 10px;
-    text-align: center;
-    font: 16px 'MyriadProRegular' !important;
-    color: #fff !important;
-  }
-  .socials li a img,
-  .socials li a:hover img {
-    display: block !important;
-    margin: 0 auto !important;
-    width: 60px;
-    height: 60px;
-  }
-  .socials li a:hover img,
-  .socials li a:hover:hover img {
-    transform: rotate(360deg);
-  }
-  .socials li a:hover p,
-  .socials li a:hover:hover p {
-    font-weight: bold !important;
-    text-decoration: none !important;
-  }
-  .footer-info {
-    height: auto;
-    text-align: center;
-    color: #fff;
-  }
-  .footer-info p {
-    font: 30px 'MyriadProRegular' !important;
-    color: #fff !important;
-  }
-  .footer-info p span {
-    font-family: 'MyriadProBold' !important;
-  }
-  .footer-info h4 {
-    font: 42px 'CANDARA';
-    font-weight: bold;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
@@ -222,8 +137,55 @@ p {
 }
 @media only screen and (min-width: 1200px) {
   .header {
+    position: relative;
     height: 145px;
     background: #191d27;
+  }
+  .logo {
+    display: block;
+    position: absolute;
+    width: 257px;
+    height: 82px;
+  }
+  .header__logo {
+    margin: 32px 0 0 -337px;
+  }
+  .navigation {
+    margin-top: 62px;
+    display: inline-block;
+    height: 20px;
+  }
+  .navigation ul li {
+    display: inline-block;
+  }
+  .navigation ul li a,
+  .navigation ul li a:hover {
+    margin-right: 85px;
+    display: block;
+    font: 17px 'akrobatregular';
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .navigation ul li a:hover,
+  .navigation ul li a:hover:hover,
+  .navigation ul li a:focus,
+  .navigation ul li a:hover:focus {
+    color: #1c59ba;
+    text-decoration: underline;
+  }
+  .header__phone-number {
+    margin-top: 54px;
+    width: 100%;
+    display: block;
+    height: 36px;
+    background: url('../img/mobile.png') no-repeat right;
+    font: 17px 'akrobatregular';
+    color: #db0000;
+    line-height: 32px;
+  }
+  .header__phone-number:hover {
+    color: #fff;
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
