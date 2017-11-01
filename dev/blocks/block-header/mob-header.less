@@ -1,32 +1,72 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
+	// header
+
 	.header {
-		height: auto;
-		overflow: hidden;
-		background: @white;
+		position: relative;
+		height: 145px;
+		background: #191d27;
 	}
+
+	// logo
+
+	.logo {
+		display: block;
+		position: absolute;
+		width: 257px;
+		height: 82px;
+	}
+
+	// header logo
 
 	.header__logo {
-		display: block;
-		float: none;
-		margin: 20px auto;
+		margin: 32px 0 0 -337px;
 	}
 
-	.header__title-site {
-		margin: 0;
-		margin-bottom: 20px;
-		font: 42px 'CANDARA';
-		color: @pink-light;
-		text-align: center;
-		line-height: auto;
-		text-transform: uppercase;
+	// navigation
 
-		img {
-			display: none;
-			margin: 99px 36px 0 26px;
-			width: 8px;
-			height: 8px;
-			float: left;
+	.navigation {
+		margin-top: 62px;
+		display: inline-block;
+		height: 20px;
+
+		ul {
+			li {
+				display: inline-block;
+
+				a, a:hover {
+					margin-right: 85px;
+					display: block;
+					font: 17px @akr-regular;
+					color: @white;
+					text-transform: uppercase;
+
+					&:hover, &:focus {
+						color: #1c59ba;
+						text-decoration: underline;
+					}
+
+				}
+			}
+		}
+
+	}
+
+	// phone number
+
+	.header__phone-number {
+		margin-top: 54px;
+		width: 100%;
+		display: block;
+		height: 36px;
+		background: url('../img/mobile.png') no-repeat right;
+		font: 17px @akr-regular;
+		color: #db0000;
+		line-height: 32px;
+
+		&:hover {
+			color: @white;
+			text-decoration: none;
 		}
 
 	}
