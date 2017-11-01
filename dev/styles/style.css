@@ -37,6 +37,38 @@ p {
   color: #f00 !important;
 }
 @media only screen and (min-width: 1200px) {
+  .advantages {
+    padding: 195px 0;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/advantages-bg.jpg') no-repeat center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .main-screen {
+    height: 1088px;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  .main-screen h2 {
+    margin-top: 282px;
+    margin-bottom: -20px;
+    font: 75px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 51px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 24px 'akrobatextralight';
+    color: #fff !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
   .callback {
     padding: 70px;
     background: url('../img/callback-form-bg.jpg') no-repeat center;
