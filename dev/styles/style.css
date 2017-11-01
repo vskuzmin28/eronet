@@ -297,49 +297,95 @@ p {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
+  .gift {
+    padding: 38px 0 58px 0;
+    background: #fff;
+    text-align: center;
   }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
+  .gift h3 {
+    font: 48px 'akrobatbold';
     text-transform: uppercase;
+    color: #3f66c8;
   }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
+  .gift p {
+    font: 30px 'akrobatbold';
     text-transform: uppercase;
+    color: #c02c9b !important;
   }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
+  .hr-title-purple {
+    margin: 6px auto 16px auto;
+    width: 86px;
+    height: 4px;
+    background: #c02c9b;
+  }
+  .gift__content {
+    margin-top: 56px;
+  }
+  .gift__content__item {
+    margin: 0 auto;
+    width: auto;
+  }
+  .gift__content__item img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .gift__content__item p {
+    font: 19px 'akrobatlight';
+    text-transform: none !important;
+    color: #3f66c8 !important;
+  }
+  .gift__content__item span {
+    display: block;
+    font: 17px 'akrobatbold';
+    color: #c02c9b;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
+  .gift {
+    padding: 38px 0 58px 0;
+    background: #fff;
+    text-align: center;
   }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
+  .gift h3 {
+    font: 48px 'akrobatbold';
     text-transform: uppercase;
+    color: #3f66c8;
   }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
+  .gift p {
+    font: 30px 'akrobatbold';
     text-transform: uppercase;
+    color: #c02c9b !important;
   }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
+  .hr-title-purple {
+    margin: 6px auto 16px auto;
+    width: 86px;
+    height: 4px;
+    background: #c02c9b;
+  }
+  .gift__content {
+    margin-top: 56px;
+  }
+  .gift__content__item {
+    margin: 0 auto;
+    width: auto;
+  }
+  .gift__content__item img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .gift__content__item p {
+    font: 19px 'akrobatlight';
+    text-transform: none !important;
+    color: #3f66c8 !important;
+  }
+  .gift__content__item span {
+    display: block;
+    font: 17px 'akrobatbold';
+    color: #c02c9b;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -446,6 +492,52 @@ p {
   .header__phone-number:hover {
     color: #fff;
     text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .main-screen {
+    height: 1088px;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  .main-screen h2 {
+    margin-top: 282px;
+    margin-bottom: -20px;
+    font: 75px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 51px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 24px 'akrobatextralight';
+    color: #fff !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .main-screen {
+    height: 1088px;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  .main-screen h2 {
+    margin-top: 282px;
+    margin-bottom: -20px;
+    font: 75px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 51px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 24px 'akrobatextralight';
+    color: #fff !important;
   }
 }
 /*
