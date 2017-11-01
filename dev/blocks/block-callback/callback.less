@@ -1,0 +1,111 @@
+@media only screen and (min-width : @desktop) {
+
+	// callback
+
+	.callback {
+		padding: 70px;
+		background: url('../img/callback-form-bg.jpg') no-repeat center;
+		background-size: cover;
+		color: @white;
+
+		h3 {
+			font: 30px @akr-bold;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		form {
+			margin-top: 72px;
+		}
+
+	}
+
+	.hr-title-white {
+		margin: 0 auto;
+		width: 86px;
+		height: 4px;
+		background: @white;
+	}
+
+	.callback__form {
+		margin: 0 auto;
+		width: 850px;
+		color: @white;
+
+		input[type="text"] {
+			margin-bottom: 64px;
+			padding: 0 8%;
+			width: 100%;
+			height: 57px;
+			background: 0;
+			border: 3px solid @white;
+			border-radius: 25px;
+			outline: 0;
+			color: @white;
+
+			&:hover, &:focus {
+				border-color: #1e59b9;;
+			}
+
+		}
+
+		input[type="submit"] {
+			width: 100%;
+			height: 57px;
+			background: #1e59b9;
+			border: 0;
+			border-radius: 25px;
+			font: 19px @akr-semibold;
+			text-transform: uppercase;
+
+			&:hover {
+				background: @white;
+				color: #1e59b9;;
+			}
+
+		}
+
+	}
+
+  input::-webkit-input-placeholder {
+  	color: @white;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  input::-moz-placeholder {
+  	color: @white;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  input:-moz-placeholder {
+  	color: @white;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  input:-ms-input-placeholder {
+  	color: @white;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  input:focus::-webkit-input-placeholder {
+  	color: @white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  input:focus::-moz-placeholder {
+  	color: @white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  input:focus:-moz-placeholder {
+  	color: @white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  input:focus:-ms-input-placeholder {
+  	color: @white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+}

@@ -57,6 +57,46 @@
       </div>
     </div>
     <!-- / main screen-->
+    <!-- callback-->
+    <div class="callback">
+      <!-- container-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Напишите нам</h3>
+            <div class="hr-title-white"></div>
+            <form action="mail.php" method="post">
+              <!-- container-->
+              <div class="container callback__form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-6">
+                    <input type="text" name="mes" placeholder="Ваше сообщение" required>
+                  </div>
+                </div>
+              </div>
+              <!-- container-->
+              <div class="container callback__form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="tel" placeholder="Ваш телефон" required>
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-6">
+                    <input type="hidden" id="action" name="action" value="submitform">
+                    <input type="submit" value="Отправить заявку">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / callback-->
     <!-- footer-->
     <footer class="footer">
       <!-- container-->
