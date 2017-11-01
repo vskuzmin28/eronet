@@ -63,26 +63,33 @@ p {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .main-screen {
-    height: 1088px;
+  .advantages {
+    padding: 195px 0 225px 0;
+    height: auto;
     overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
+    background: url('../img/advantages-bg.jpg') no-repeat center;
     background-size: cover;
-    color: #fff;
   }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
+  .advantages__content {
+    height: auto;
+    margin: 60px auto 0 auto;
   }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
+  .advantages__content__item {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 230px;
+    text-align: center;
   }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
+  .advantages__content__item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 160px;
+    height: auto;
+  }
+  .advantages__content__item p {
+    font: 16px 'akrobatregular';
+    color: #3f66c8 !important;
   }
 }
 @media only screen and (min-width: 1200px) {

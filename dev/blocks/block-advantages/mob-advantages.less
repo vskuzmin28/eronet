@@ -1,29 +1,38 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
-	// main screen
+	// advantages
 
-	.main-screen {
-		height: 1088px;
+	.advantages {
+		padding: 195px 0 225px 0;
+		height: auto;
 		overflow: hidden;
-		background: url('../img/main-screen.jpg') no-repeat center;
+		background: url('../img/advantages-bg.jpg') no-repeat center;
 		background-size: cover;
-		color: @white;
+	}
 
-		h2 {
-			margin-top: 282px;
-			margin-bottom: -20px;
-			font: 75px @akr-bold;
-			text-transform: uppercase;
+	.advantages__content {
+		height: auto;
+		margin: 60px auto 0 auto;
+	}
+
+	.advantages__content__item {
+		margin: 0 auto;
+		margin-bottom: 40px;
+		width: 230px;
+		text-align: center;
+
+		img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 10px;
+			width: 160px;
+			height: auto;
 		}
 
-		h3 {
-			font: 51px @akr-regular;
-			text-transform: uppercase;
-		}
 
 		p {
-			font: 24px @akr-extralight;
-			color: @white !important;
+			font: 16px @akr-regular;
+			color: #3f66c8 !important;
 		}
 
 	}
