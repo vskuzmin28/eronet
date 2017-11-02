@@ -1,29 +1,56 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
-	// main screen
+	// terms of action
 
-	.main-screen {
-		height: 1088px;
+	.terms-of-action {
+		padding: 80px 0;
+		height: auto;
 		overflow: hidden;
-		background: url('../img/main-screen.jpg') no-repeat center;
-		background-size: cover;
-		color: @white;
-
-		h2 {
-			margin-top: 282px;
-			margin-bottom: -20px;
-			font: 75px @akr-bold;
-			text-transform: uppercase;
-		}
+		background: #f8f8f8;
 
 		h3 {
-			font: 51px @akr-regular;
-			text-transform: uppercase;
+			font: 40px @akr-bold;
+			text-align: center;
+			color: #3f66c8;
 		}
 
-		p {
-			font: 24px @akr-extralight;
-			color: @white !important;
+	}
+
+	.terms-of-action__content {
+		height: auto;
+		margin-top: 54px;
+
+		ul {
+			height: auto;
+
+			li {
+				margin-bottom: 36px;
+				height: 39px;
+				list-style: none;
+
+				span {
+					margin-right: 27px;
+					float: left;
+					display: block;
+					width: 39px;
+					height: 39px;
+					background: #fff343;
+					border-radius: 50%;
+					font: 24px @akr-regular;
+					text-align: center;
+					line-height: 39px;
+					color: #cd333f;
+				}
+
+				p {
+					font: 20px @akr-regular;
+					line-height: 39px;
+					color: #cd333f !important;					
+				}
+
+			}
+
+
 		}
 
 	}

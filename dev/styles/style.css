@@ -609,52 +609,6 @@ p {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
-  }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
-  }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
-  }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
-  }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
-  }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
-  }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
-  }
-}
-@media only screen and (min-width: 1200px) {
   .gift {
     padding: 38px 0 58px 0;
     background: #fff;
@@ -842,6 +796,29 @@ p {
     text-decoration: none;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .main-screen {
+    height: 1088px;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  .main-screen h2 {
+    margin-top: 282px;
+    margin-bottom: -20px;
+    font: 75px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 51px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 24px 'akrobatextralight';
+    color: #fff !important;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
   .main-screen {
     height: 1088px;
@@ -865,27 +842,90 @@ p {
     color: #fff !important;
   }
 }
-@media only screen and (min-width: 1200px) {
-  .main-screen {
-    height: 1088px;
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .terms-of-action {
+    padding: 80px 0;
+    height: auto;
     overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
+    background: #f8f8f8;
   }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
+  .terms-of-action h3 {
+    font: 40px 'akrobatbold';
+    text-align: center;
+    color: #3f66c8;
   }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
+  .terms-of-action__content {
+    height: auto;
+    margin-top: 54px;
   }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
+  .terms-of-action__content ul {
+    height: auto;
+  }
+  .terms-of-action__content ul li {
+    margin-bottom: 36px;
+    height: 39px;
+    list-style: none;
+  }
+  .terms-of-action__content ul li span {
+    margin-right: 27px;
+    float: left;
+    display: block;
+    width: 39px;
+    height: 39px;
+    background: #fff343;
+    border-radius: 50%;
+    font: 24px 'akrobatregular';
+    text-align: center;
+    line-height: 39px;
+    color: #cd333f;
+  }
+  .terms-of-action__content ul li p {
+    font: 20px 'akrobatregular';
+    line-height: 39px;
+    color: #cd333f !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .terms-of-action {
+    padding: 80px 0;
+    height: auto;
+    overflow: hidden;
+    background: #f8f8f8;
+  }
+  .terms-of-action h3 {
+    font: 40px 'akrobatbold';
+    text-align: center;
+    color: #3f66c8;
+  }
+  .terms-of-action__content {
+    height: auto;
+    margin-top: 54px;
+  }
+  .terms-of-action__content ul {
+    height: auto;
+  }
+  .terms-of-action__content ul li {
+    margin-bottom: 36px;
+    height: 39px;
+    list-style: none;
+  }
+  .terms-of-action__content ul li span {
+    margin-right: 27px;
+    float: left;
+    display: block;
+    width: 39px;
+    height: 39px;
+    background: #fff343;
+    border-radius: 50%;
+    font: 24px 'akrobatregular';
+    text-align: center;
+    line-height: 39px;
+    color: #cd333f;
+  }
+  .terms-of-action__content ul li p {
+    font: 20px 'akrobatregular';
+    line-height: 39px;
+    color: #cd333f !important;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
