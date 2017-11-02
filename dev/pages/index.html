@@ -28,11 +28,11 @@
             <!-- navigation-->
             <nav class="navigation">
               <ul>
-                <li><a href="#" title="">О нас</a></li>
-                <li><a href="#" title="">Товары</a></li>
-                <li><a href="#" title="">Акции</a></li>
-                <li><a href="#" title="">Почему мы</a></li>
-                <li><a href="#" title="">Контакты</a></li>
+                <li><a data-easing="easeInQuad" href="#about" title="">О нас</a></li>
+                <li><a data-easing="easeInQuad" href="#goods" title="">Товары</a></li>
+                <li><a data-easing="easeInQuad" href="#actions" title="">Акции</a></li>
+                <li><a data-easing="easeInQuad" href="#advantages" title="">Почему мы</a></li>
+                <li><a data-easing="easeInQuad" href="#map" title="">Контакты</a></li>
               </ul>
             </nav>
           </div>
@@ -58,7 +58,7 @@
     </div>
     <!-- / main screen-->
     <!-- main about-->
-    <div class="about">
+    <div class="about" id="about">
       <!-- container-->
       <div class="container">
         <div class="row">
@@ -77,7 +77,7 @@
     </div>
     <!-- / main about-->
     <!-- types of goods-->
-    <div class="types-of-goods">
+    <div class="types-of-goods" id="goods">
       <!-- container-->
       <div class="container">
         <div class="row">
@@ -301,7 +301,7 @@
     </div>
     <!-- / types of goods-->
     <!-- action-->
-    <div class="action">
+    <div class="action" id="actions">
       <!-- container-->
       <div class="container action__body"> 
         <div class="row">
@@ -404,7 +404,7 @@
     </div>
     <!-- / bonus program-->
     <!-- advantages-->
-    <div class="advantages">
+    <div class="advantages" id="advantages">
       <!-- container-->
       <div class="container">
         <div class="row">
@@ -501,7 +501,7 @@
           <div class="col-md-12">
             <h3>Напишите нам</h3>
             <div class="hr-title-white"></div>
-            <form action="mail.php" method="post">
+            <form class="send-form" action="mail.php" method="post">
               <!-- container-->
               <div class="container callback__form">
                 <div class="row">
@@ -534,7 +534,7 @@
     </div>
     <!-- / callback-->
     <!-- map-->
-    <div class="map">
+    <div class="map" id="map">
       <!-- container-->
       <div class="container">
         <div class="row">
@@ -583,9 +583,15 @@
       </div>
     </footer>
     <!-- / footer-->
+    <!-- popup-->
+    <div class="popup" id="okthanks"><a class="popup-close" href="#" title=""></a>
+      <p>Спасибо за заявку!</p>
+    </div>
+    <!-- / popup-->
     <!-- scripts-->
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/jquery.bpopup.min.js"></script>
+    <script src="../js/smooth-scroll.js"></script>
     <script src="../js/scripts.js"></script>
     <!-- / scripts-->
   </body>

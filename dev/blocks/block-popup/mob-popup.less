@@ -1,0 +1,72 @@
+@media only screen and (min-width : @mobile) and  (max-width : @desktop) {
+
+	// map
+
+	.map {
+		position: relative;
+		height: 700px;
+	}
+
+	.map__body {
+		margin: 160px 0 0 -120px;
+		position: absolute;
+		width: 564px;
+		height: 385px;
+		background: @white;
+		z-index: 99;
+		-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+
+    h5 {
+    	margin: 20px 0 6px 150px;
+    	font: 36px @akr-bold;
+    	color: #cc3340;
+    }
+
+	}
+
+	.hr-title-gradient {
+		margin: 0 0 30px 150px;
+		width: 74px;
+		height: 5px;
+		background: #cc3340;
+	}
+
+	.map__body__field {
+		margin-bottom: 35px;
+		height: 59px;
+		overflow: hidden;
+		padding: 0 76px;
+
+		img {
+			float: left;
+			display: block;
+			height: 59px;
+			width: 47px;
+			margin-right: 29px;
+		}
+
+		p {
+			margin-top: 4px;
+			font: 20px @akr-semibold;
+			color: #1c59ba !important;
+		}
+
+		span {
+			display: block;
+			margin-top: 4px;
+			font: 20px @akr-semibold;
+			color: #cc3340 !important;
+		}
+
+		a, a:hover {
+			display: block;
+			font: 20px @akr-semibold;
+			color: #1c59ba !important;
+			line-height: 56px;		
+		}
+
+	}
+
+}
