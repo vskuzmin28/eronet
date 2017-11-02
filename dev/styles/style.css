@@ -39,6 +39,218 @@ p {
   color: #195abc;
 }
 @media only screen and (min-width: 1200px) {
+  .about {
+    padding: 110px 0;
+    position: relative;
+    height: auto;
+    background: url('../img/gradient-bg.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .about__content {
+    width: 509px;
+    height: 509px;
+    background: url('../img/border-gradient.png') no-repeat;
+  }
+  .about__content__body {
+    margin: 35px 0 0 80px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  .about__content__body h3 {
+    font: 48px 'akrobatsemibold';
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .about__content__body p {
+    font: 16px 'akrobatlight';
+    color: #fff !important;
+  }
+  .hr-small-white {
+    margin-bottom: 14px;
+    width: 75px;
+    height: 4px;
+    background: #fff;
+  }
+  .about__simulation {
+    margin: 20px 0 0 100px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .about {
+    padding: 110px 0;
+    position: relative;
+    height: auto;
+    background: url('../img/gradient-bg.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .about__content {
+    width: 509px;
+    height: 509px;
+    background: url('../img/border-gradient.png') no-repeat;
+  }
+  .about__content__body {
+    margin: 35px 0 0 80px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  .about__content__body h3 {
+    font: 48px 'akrobatsemibold';
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .about__content__body p {
+    font: 16px 'akrobatlight';
+    color: #fff !important;
+  }
+  .hr-small-white {
+    margin-bottom: 14px;
+    width: 75px;
+    height: 4px;
+    background: #fff;
+  }
+  .about__simulation {
+    margin: 20px 0 0 100px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .advantages {
+    padding: 195px 0 225px 0;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/advantages-bg.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .advantages__content {
+    height: auto;
+    margin: 60px auto 0 auto;
+  }
+  .advantages__content__item {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 230px;
+    text-align: center;
+  }
+  .advantages__content__item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 160px;
+    height: auto;
+  }
+  .advantages__content__item p {
+    font: 16px 'akrobatregular';
+    color: #3f66c8 !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .advantages {
+    padding: 195px 0 225px 0;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/advantages-bg.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .advantages__content {
+    height: auto;
+    margin: 60px auto 0 auto;
+  }
+  .advantages__content__item {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 230px;
+    text-align: center;
+  }
+  .advantages__content__item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 160px;
+    height: auto;
+  }
+  .advantages__content__item p {
+    font: 16px 'akrobatregular';
+    color: #3f66c8 !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .action {
+    position: relative;
+    height: 1016px;
+    overflow: hidden;
+    background: url('../img/action-bg.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .action__body {
+    margin-top: 350px;
+    height: auto;
+  }
+  .timer {
+    margin-left: -160px;
+    position: absolute;
+    width: 578px;
+    height: 320px;
+    background: #fff;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  }
+  .timer__body {
+    margin: 36px 0 0 36px;
+    width: 510px;
+    height: 250px;
+    overflow: hidden;
+    background: url('../img/timer.jpg') no-repeat center;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  }
+  .timer__content {
+    height: 60px;
+    margin-top: 90px !important;
+  }
+  .action__body__description {
+    padding-left: 50px;
+    height: auto;
+  }
+  .action__body__description h4 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font: 60px 'akrobatbold';
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .action__body__description h5 {
+    font: 34px 'akrobatregular';
+    color: #fff;
+  }
+  .action__body__description p {
+    font: 24px 'akrobatlight';
+    color: #fff !important;
+  }
+  .action__body__description span {
+    margin-top: 36px;
+    display: block;
+    font: 60px 'akrobatregular';
+    color: #fff;
+  }
+  .action__body__stimulation {
+    margin: -50px 0 0 -80px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
   .action {
     position: relative;
     height: 1016px;
@@ -100,171 +312,6 @@ p {
     position: absolute;
     width: 500px;
     height: 500px;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
-  }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
-  }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
-  }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .about {
-    padding: 110px 0;
-    position: relative;
-    height: auto;
-    background: url('../img/gradient-bg.jpg') no-repeat center;
-    background-size: cover;
-  }
-  .about__content {
-    width: 509px;
-    height: 509px;
-    background: url('../img/border-gradient.png') no-repeat;
-  }
-  .about__content__body {
-    margin: 35px 0 0 80px;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-  }
-  .about__content__body h3 {
-    font: 48px 'akrobatsemibold';
-    text-transform: uppercase;
-    color: #fff;
-  }
-  .about__content__body p {
-    font: 16px 'akrobatlight';
-    color: #fff !important;
-  }
-  .hr-small-white {
-    margin-bottom: 14px;
-    width: 75px;
-    height: 4px;
-    background: #fff;
-  }
-  .about__simulation {
-    margin: 20px 0 0 100px;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .about {
-    padding: 110px 0;
-    position: relative;
-    height: auto;
-    background: url('../img/gradient-bg.jpg') no-repeat center;
-    background-size: cover;
-  }
-  .about__content {
-    width: 509px;
-    height: 509px;
-    background: url('../img/border-gradient.png') no-repeat;
-  }
-  .about__content__body {
-    margin: 35px 0 0 80px;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-  }
-  .about__content__body h3 {
-    font: 48px 'akrobatsemibold';
-    text-transform: uppercase;
-    color: #fff;
-  }
-  .about__content__body p {
-    font: 16px 'akrobatlight';
-    color: #fff !important;
-  }
-  .hr-small-white {
-    margin-bottom: 14px;
-    width: 75px;
-    height: 4px;
-    background: #fff;
-  }
-  .about__simulation {
-    margin: 20px 0 0 100px;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .advantages {
-    padding: 195px 0 225px 0;
-    height: auto;
-    overflow: hidden;
-    background: url('../img/advantages-bg.jpg') no-repeat center;
-    background-size: cover;
-  }
-  .advantages__content {
-    height: auto;
-    margin: 60px auto 0 auto;
-  }
-  .advantages__content__item {
-    margin: 0 auto;
-    margin-bottom: 40px;
-    width: 230px;
-    text-align: center;
-  }
-  .advantages__content__item img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width: 160px;
-    height: auto;
-  }
-  .advantages__content__item p {
-    font: 16px 'akrobatregular';
-    color: #3f66c8 !important;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .advantages {
-    padding: 195px 0 225px 0;
-    height: auto;
-    overflow: hidden;
-    background: url('../img/advantages-bg.jpg') no-repeat center;
-    background-size: cover;
-  }
-  .advantages__content {
-    height: auto;
-    margin: 60px auto 0 auto;
-  }
-  .advantages__content__item {
-    margin: 0 auto;
-    margin-bottom: 40px;
-    width: 230px;
-    text-align: center;
-  }
-  .advantages__content__item img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width: 160px;
-    height: auto;
-  }
-  .advantages__content__item p {
-    font: 16px 'akrobatregular';
-    color: #3f66c8 !important;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -580,76 +627,6 @@ p {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .footer {
-    padding: 52px 0;
-    background: #191d27;
-    position: relative;
-  }
-  .footer__logo {
-    margin: 30px 0 0 -337px;
-  }
-  .footer__content {
-    height: auto;
-  }
-  .footer__content h4 {
-    margin-bottom: 30px;
-    font: 20px 'akrobatregular';
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .footer__content p {
-    margin-bottom: 20px;
-    font: 15px 'akrobatregular';
-    text-transform: uppercase;
-    color: #fff !important;
-  }
-  .footer__content a,
-  .footer__content a:hover {
-    margin-bottom: 34px;
-    display: block;
-    color: #fff;
-    font: 16px 'akrobatsemibold';
-  }
-  .footer__link-email {
-    font-family: 'akrobatsemibold' !important;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .footer {
-    padding: 52px 0;
-    background: #191d27;
-    position: relative;
-  }
-  .footer__logo {
-    margin: 30px 0 0 -337px;
-  }
-  .footer__content {
-    height: auto;
-  }
-  .footer__content h4 {
-    margin-bottom: 30px;
-    font: 20px 'akrobatregular';
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .footer__content p {
-    margin-bottom: 20px;
-    font: 15px 'akrobatregular';
-    text-transform: uppercase;
-    color: #fff !important;
-  }
-  .footer__content a,
-  .footer__content a:hover {
-    margin-bottom: 34px;
-    display: block;
-    color: #fff;
-    font: 16px 'akrobatsemibold';
-  }
-  .footer__link-email {
-    font-family: 'akrobatsemibold' !important;
-  }
-}
-@media only screen and (min-width: 1200px) {
   .gift {
     padding: 38px 0 58px 0;
     background: #fff;
@@ -729,6 +706,76 @@ p {
     display: block;
     font: 17px 'akrobatbold';
     color: #c02c9b;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding: 52px 0;
+    background: #191d27;
+    position: relative;
+  }
+  .footer__logo {
+    margin: 30px 0 0 -337px;
+  }
+  .footer__content {
+    height: auto;
+  }
+  .footer__content h4 {
+    margin-bottom: 30px;
+    font: 20px 'akrobatregular';
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .footer__content p {
+    margin-bottom: 20px;
+    font: 15px 'akrobatregular';
+    text-transform: uppercase;
+    color: #fff !important;
+  }
+  .footer__content a,
+  .footer__content a:hover {
+    margin-bottom: 34px;
+    display: block;
+    color: #fff;
+    font: 16px 'akrobatsemibold';
+  }
+  .footer__link-email {
+    font-family: 'akrobatsemibold' !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .footer {
+    padding: 52px 0;
+    background: #191d27;
+    position: relative;
+  }
+  .footer__logo {
+    margin: 30px 0 0 -337px;
+  }
+  .footer__content {
+    height: auto;
+  }
+  .footer__content h4 {
+    margin-bottom: 30px;
+    font: 20px 'akrobatregular';
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .footer__content p {
+    margin-bottom: 20px;
+    font: 15px 'akrobatregular';
+    text-transform: uppercase;
+    color: #fff !important;
+  }
+  .footer__content a,
+  .footer__content a:hover {
+    margin-bottom: 34px;
+    display: block;
+    color: #fff;
+    font: 16px 'akrobatsemibold';
+  }
+  .footer__link-email {
+    font-family: 'akrobatsemibold' !important;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -858,6 +905,88 @@ p {
   .main-screen p {
     font: 24px 'akrobatextralight';
     color: #fff !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .main-screen {
+    height: 1088px;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  .main-screen h2 {
+    margin-top: 282px;
+    margin-bottom: -20px;
+    font: 75px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 51px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 24px 'akrobatextralight';
+    color: #fff !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .map {
+    position: relative;
+    height: 700px;
+  }
+  .map__body {
+    margin: 160px 0 0 -120px;
+    position: absolute;
+    width: 564px;
+    height: 385px;
+    background: #fff;
+    z-index: 99;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  }
+  .map__body h5 {
+    margin: 20px 0 6px 150px;
+    font: 36px 'akrobatbold';
+    color: #cc3340;
+  }
+  .hr-title-gradient {
+    margin: 0 0 30px 150px;
+    width: 74px;
+    height: 5px;
+    background: #cc3340;
+  }
+  .map__body__field {
+    margin-bottom: 35px;
+    height: 59px;
+    overflow: hidden;
+    padding: 0 76px;
+  }
+  .map__body__field img {
+    float: left;
+    display: block;
+    height: 59px;
+    width: 47px;
+    margin-right: 29px;
+  }
+  .map__body__field p {
+    margin-top: 4px;
+    font: 20px 'akrobatsemibold';
+    color: #1c59ba !important;
+  }
+  .map__body__field span {
+    display: block;
+    margin-top: 4px;
+    font: 20px 'akrobatsemibold';
+    color: #cc3340 !important;
+  }
+  .map__body__field a,
+  .map__body__field a:hover {
+    display: block;
+    font: 20px 'akrobatsemibold';
+    color: #1c59ba !important;
+    line-height: 56px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
