@@ -5,8 +5,72 @@
 	.bonus-program {
 		padding: 106px 0 260px 0;
 		height: auto;
-		background: url('../img/bonus-program-bg.jpg') no-repeat center;
+		overflow: hidden;
+		background: #fff url('../img/bonus-program-bg.jpg') no-repeat center;
 		background-size: cover;
+
+		h3 {
+			font: 50px @akr-bold;
+			color: #f2ce32;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+	}
+
+	.bonus-program__content {
+		position: relative;
+		margin-top: 80px;
+		height: auto;
+
+		h4 {
+			font: 30px @akr-bold;
+			color: #f2ce32;
+			text-align: left;
+			text-transform: uppercase;
+		}
+
+		ul {
+			margin-top: 30px;
+			-webkit-padding-start: 0px;
+			height: auto;
+
+			li {
+				list-style: none;
+				font: 20px @akr-regular;
+				color: #1e59b9;
+				text-transform: uppercase;
+				line-height: 42px;
+			}
+
+		}
+
+	}
+
+	.bonus-program__content__bonus-card {
+		bottom: -108px;
+		right: -190px;
+		position: absolute;
+		width: 541px;
+		height: 274px;
+		border-radius: 28px;
+		background: url('../img/bonus-card.png') no-repeat;
+		-webkit-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+	}
+
+	.hr-title-yellow {
+		margin: 0 auto;
+		width: 82px;
+		height: 5px;
+		background: #f2ce32;
+	}
+
+	.hr-title-yellow-small {
+		width: 82px;
+		height: 5px;
+		background: #f2ce32;
 	}
 
 }
