@@ -1,29 +1,70 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
-	// main screen
+	// map
 
-	.main-screen {
-		height: 1088px;
+	.map {
+		position: relative;
+		height: 700px;
+	}
+
+	.map__body {
+		margin: 160px 0 0 -120px;
+		position: absolute;
+		width: 564px;
+		height: 385px;
+		background: @white;
+		z-index: 99;
+		-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+
+    h5 {
+    	margin: 20px 0 6px 150px;
+    	font: 36px @akr-bold;
+    	color: #cc3340;
+    }
+
+	}
+
+	.hr-title-gradient {
+		margin: 0 0 30px 150px;
+		width: 74px;
+		height: 5px;
+		background: #cc3340;
+	}
+
+	.map__body__field {
+		margin-bottom: 35px;
+		height: 59px;
 		overflow: hidden;
-		background: url('../img/main-screen.jpg') no-repeat center;
-		background-size: cover;
-		color: @white;
+		padding: 0 76px;
 
-		h2 {
-			margin-top: 282px;
-			margin-bottom: -20px;
-			font: 75px @akr-bold;
-			text-transform: uppercase;
-		}
-
-		h3 {
-			font: 51px @akr-regular;
-			text-transform: uppercase;
+		img {
+			float: left;
+			display: block;
+			height: 59px;
+			width: 47px;
+			margin-right: 29px;
 		}
 
 		p {
-			font: 24px @akr-extralight;
-			color: @white !important;
+			margin-top: 4px;
+			font: 20px @akr-semibold;
+			color: #1c59ba !important;
+		}
+
+		span {
+			display: block;
+			margin-top: 4px;
+			font: 20px @akr-semibold;
+			color: #cc3340 !important;
+		}
+
+		a, a:hover {
+			display: block;
+			font: 20px @akr-semibold;
+			color: #1c59ba !important;
+			line-height: 56px;		
 		}
 
 	}
