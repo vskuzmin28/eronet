@@ -39,131 +39,172 @@ p {
   color: #195abc;
 }
 @media only screen and (min-width: 1200px) {
-  .about {
-    padding: 110px 0;
+  .action {
     position: relative;
-    height: auto;
-    background: url('../img/gradient-bg.jpg') no-repeat center;
+    height: 1016px;
+    overflow: hidden;
+    background: url('../img/action-bg.jpg') no-repeat center;
     background-size: cover;
   }
-  .about__content {
-    width: 509px;
-    height: 509px;
-    background: url('../img/border-gradient.png') no-repeat;
+  .action__body {
+    margin-top: 350px;
+    height: auto;
   }
-  .about__content__body {
-    margin: 35px 0 0 80px;
+  .timer {
+    margin-left: -160px;
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 578px;
+    height: 320px;
+    background: #fff;
+    overflow: hidden;
   }
-  .about__content__body h3 {
-    font: 48px 'akrobatsemibold';
+  .timer__body {
+    margin: 36px 0 0 36px;
+    width: 510px;
+    height: 250px;
+    overflow: hidden;
+    background: url('../img/timer.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .timer__content {
+    height: 60px;
+    margin-top: 90px !important;
+  }
+  .action__body__description {
+    padding-left: 50px;
+    height: auto;
+  }
+  .action__body__description h4 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font: 60px 'akrobatbold';
+    color: #fff;
     text-transform: uppercase;
+  }
+  .action__body__description h5 {
+    font: 34px 'akrobatregular';
     color: #fff;
   }
-  .about__content__body p {
-    font: 16px 'akrobatlight';
+  .action__body__description p {
+    font: 24px 'akrobatlight';
     color: #fff !important;
   }
-  .hr-small-white {
-    margin-bottom: 14px;
-    width: 75px;
-    height: 4px;
-    background: #fff;
+  .action__body__description span {
+    margin-top: 36px;
+    display: block;
+    font: 60px 'akrobatregular';
+    color: #fff;
   }
-  .about__simulation {
-    margin: 20px 0 0 100px;
+  .action__body__stimulation {
+    margin: -50px 0 0 -80px;
     position: absolute;
     width: 500px;
     height: 500px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .about {
-    padding: 110px 0;
-    position: relative;
-    height: auto;
-    background: url('../img/gradient-bg.jpg') no-repeat center;
+  .main-screen {
+    height: 1088px;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
     background-size: cover;
-  }
-  .about__content {
-    width: 509px;
-    height: 509px;
-    background: url('../img/border-gradient.png') no-repeat;
-  }
-  .about__content__body {
-    margin: 35px 0 0 80px;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-  }
-  .about__content__body h3 {
-    font: 48px 'akrobatsemibold';
-    text-transform: uppercase;
     color: #fff;
   }
-  .about__content__body p {
-    font: 16px 'akrobatlight';
+  .main-screen h2 {
+    margin-top: 282px;
+    margin-bottom: -20px;
+    font: 75px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 51px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 24px 'akrobatextralight';
     color: #fff !important;
-  }
-  .hr-small-white {
-    margin-bottom: 14px;
-    width: 75px;
-    height: 4px;
-    background: #fff;
-  }
-  .about__simulation {
-    margin: 20px 0 0 100px;
-    position: absolute;
-    width: 500px;
-    height: 500px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
+  .about {
+    padding: 110px 0;
+    position: relative;
+    height: auto;
+    background: url('../img/gradient-bg.jpg') no-repeat center;
     background-size: cover;
+  }
+  .about__content {
+    width: 509px;
+    height: 509px;
+    background: url('../img/border-gradient.png') no-repeat;
+  }
+  .about__content__body {
+    margin: 35px 0 0 80px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  .about__content__body h3 {
+    font: 48px 'akrobatsemibold';
+    text-transform: uppercase;
     color: #fff;
   }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
-  }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
-  }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
+  .about__content__body p {
+    font: 16px 'akrobatlight';
     color: #fff !important;
+  }
+  .hr-small-white {
+    margin-bottom: 14px;
+    width: 75px;
+    height: 4px;
+    background: #fff;
+  }
+  .about__simulation {
+    margin: 20px 0 0 100px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
+  .about {
+    padding: 110px 0;
+    position: relative;
+    height: auto;
+    background: url('../img/gradient-bg.jpg') no-repeat center;
     background-size: cover;
+  }
+  .about__content {
+    width: 509px;
+    height: 509px;
+    background: url('../img/border-gradient.png') no-repeat;
+  }
+  .about__content__body {
+    margin: 35px 0 0 80px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  .about__content__body h3 {
+    font: 48px 'akrobatsemibold';
+    text-transform: uppercase;
     color: #fff;
   }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
-  }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
-  }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
+  .about__content__body p {
+    font: 16px 'akrobatlight';
     color: #fff !important;
+  }
+  .hr-small-white {
+    margin-bottom: 14px;
+    width: 75px;
+    height: 4px;
+    background: #fff;
+  }
+  .about__simulation {
+    margin: 20px 0 0 100px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
   }
 }
 @media only screen and (min-width: 1200px) {

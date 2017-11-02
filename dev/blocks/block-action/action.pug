@@ -1,16 +1,38 @@
-.main-screen
+.action
 
 	// container
 
-	.container
+	.container.action__body 
 
 		.row
 
-			.col-md-7
+			.col-md-5
 
-				h2
-					| ОТЛИЧНЫЙ ВЫБОР
-				h3
-					| Мы знаем, как разнообразить отношения
-				p
-					| и не только...
+				// timer
+
+				.timer
+					.timer__body
+
+						.timer__content
+
+							noindex
+								script(src="http://megatimer.ru/s/15c670a342eaf07865e20ff589c8886a.js")
+
+			.col-md-4
+
+				.action__body__description
+
+					h4
+						| Акция
+
+					h5
+						| Название товара
+
+					p
+						| Мини описание товара <br/> к красках или без них.
+
+					span
+						| -3 390р
+
+			.col-md-3
+				img.action__body__stimulation(src="../img/stimulation.png" alt="@@")
