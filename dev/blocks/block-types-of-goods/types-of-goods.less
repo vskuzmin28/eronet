@@ -1,29 +1,37 @@
 @media only screen and (min-width : @desktop) {
 
-	// main screen
+	// types of goods
 
-	.main-screen {
-		height: 1088px;
-		overflow: hidden;
-		background: url('../img/main-screen.jpg') no-repeat center;
+	.types-of-goods {
+		padding: 30px 0;
+		height: auto;
+		background: url('../img/types-of-goods-bg.jpg') no-repeat center;
 		background-size: cover;
-		color: @white;
-
-		h2 {
-			margin-top: 282px;
-			margin-bottom: -20px;
-			font: 75px @akr-bold;
-			text-transform: uppercase;
-		}
 
 		h3 {
-			font: 51px @akr-regular;
+			margin-bottom: 30px;
+			font: 40px @akr-regular;
 			text-transform: uppercase;
+			text-align: center;
+		}
+
+	}
+
+	.types-of-goods__item {
+		margin-bottom: 45px;
+		height: auto;
+		text-align: center;
+
+		img {
+			margin: 0 auto;
+			display: block;
+			margin-bottom: 10px;
 		}
 
 		p {
-			font: 24px @akr-extralight;
-			color: @white !important;
+			font: 16px @akr-regular;
+			text-transform: uppercase;
+			color: #000 !important;
 		}
 
 	}
