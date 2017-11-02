@@ -3,7 +3,7 @@
 	// bonus program
 
 	.bonus-program {
-		padding: 106px 0 260px 0;
+		padding: 106px 0 60px 0;
 		height: auto;
 		overflow: hidden;
 		background: #fff url('../img/bonus-program-bg.jpg') no-repeat center;
@@ -28,14 +28,19 @@
 			color: #f2ce32;
 			text-align: left;
 			text-transform: uppercase;
+			text-align: center;
 		}
 
 		ul {
+			margin: 0;
+			padding: 0;
 			margin-top: 30px;
-			-webkit-padding-start: 0px;
+			-webkit-padding-start: 0px !important;
 			height: auto;
 
 			li {
+				margin: 0;
+				padding: 0;
 				list-style: none;
 				font: 20px @akr-regular;
 				color: #1e59b9;
@@ -48,11 +53,10 @@
 	}
 
 	.bonus-program__content__bonus-card {
-		bottom: -108px;
-		right: -190px;
-		position: absolute;
-		width: 541px;
-		height: 274px;
+		display: none;
+		position: relative;
+		width: 100%;
+		height: auto;
 		border-radius: 28px;
 		background: url('../img/bonus-card.png') no-repeat;
 		-webkit-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
@@ -68,6 +72,7 @@
 	}
 
 	.hr-title-yellow-small {
+		margin: 0 auto;
 		width: 82px;
 		height: 5px;
 		background: #f2ce32;

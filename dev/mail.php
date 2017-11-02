@@ -5,13 +5,13 @@ if(isset($_POST['action']) && $_POST['action'] == 'submitform')
 {
   
   $name = $_POST['name'];
-  $tel = $_POST['phone'];
-  $email = $_POST['email'];
+  $tel = $_POST['tel'];
+  $mes = $_POST['mes'];
 
   //
   $ip = gethostbyname($_SERVER['REMOTE_ADDR']); 
 
-    $to = 'sgdin@yandex.ru';
+    $to = 'vskuzmin28@gmail.com';
     $subject = "Call form";
      
     //headers and subject
@@ -21,7 +21,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'submitform')
     
     $body = "New order<br />";
     $body .= "Name: ".$name."<br />";
-    $body .= "Phone number: ".$phone."<br />";
+    $body .= "Phone number: ".$tel."<br />";
+    $body .= "Message: ".$mes."<br />";
     if(isset($_POST['email'])) { $body .= "Почта: ".$email."<br />"; }  
     $body .= "IP: ".$ip."<br />";
     

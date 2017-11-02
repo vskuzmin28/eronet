@@ -4,7 +4,7 @@
 
 	.header {
 		position: relative;
-		height: 145px;
+		height: auto;
 		background: #191d27;
 	}
 
@@ -12,7 +12,7 @@
 
 	.logo {
 		display: block;
-		position: absolute;
+		position: relative;
 		width: 257px;
 		height: 82px;
 	}
@@ -20,25 +20,31 @@
 	// header logo
 
 	.header__logo {
-		margin: 32px 0 0 -337px;
+		margin: 40px auto;
 	}
 
 	// navigation
 
 	.navigation {
-		margin-top: 62px;
-		display: inline-block;
-		height: 20px;
+		margin-top: 0;
+		display: block;
+		height: auto;
 
 		ul {
+			padding: 0;
+			margin: 0;
+			-webkit-padding-start: 0px !important;
 			li {
-				display: inline-block;
+				display: auto;
+				display: block;
+				margin-bottom: 10px;
 
 				a, a:hover {
-					margin-right: 85px;
+					margin-right: 0px;
 					display: block;
 					font: 17px @akr-regular;
 					color: @white;
+					text-align: center;
 					text-transform: uppercase;
 
 					&:hover, &:focus {
@@ -56,7 +62,10 @@
 
 	.header__phone-number {
 		margin-top: 54px;
-		width: 100%;
+		width: 140px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 30px;
 		display: block;
 		height: 36px;
 		background: url('../img/mobile.png') no-repeat right;

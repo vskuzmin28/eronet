@@ -6,13 +6,13 @@
 
 		.row
 
-			.col-md-12
+			.col-xs-12.col-md-12
 
 				h3
 					| Напишите нам
 				.hr-title-white
 
-				form.send-form(action="mail.php" method="post")
+				form.send-form(action="../mail.php" method="post")
 
 					// container
 
@@ -20,12 +20,12 @@
 
 						.row
 
-							.col-md-6
+							.col-xs-12.col-md-6
 								input(type="text" name="name" placeholder="Ваше имя" required)
 
-							.col-md-2
+							.col-xs-12.col-md-2
 
-							.col-md-6
+							.col-xs-12.col-md-6
 								input(type="text" name="mes" placeholder="Ваше сообщение" required)
 
 					// container
@@ -34,11 +34,11 @@
 
 						.row
 
-							.col-md-6
+							.col-xs-12.col-md-6
 								input(type="text" name="tel" placeholder="Ваш телефон" required)
 
-							.col-md-2
+							.col-xs-12.col-md-2
 
-							.col-md-6
+							.col-xs-12.col-md-6
 								input(type="hidden" id="action" name="action" value="submitform")
 								input(type="submit" value="Отправить заявку")
