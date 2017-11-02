@@ -1,31 +1,79 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
-	// main screen
+	// action
 
-	.main-screen {
-		height: 1088px;
+	.action {
+		position: relative;
+		height: 1016px;
 		overflow: hidden;
-		background: url('../img/main-screen.jpg') no-repeat center;
+		background: url('../img/action-bg.jpg') no-repeat center;
 		background-size: cover;
-		color: @white;
+	}
 
-		h2 {
-			margin-top: 282px;
-			margin-bottom: -20px;
-			font: 75px @akr-bold;
+	.action__body {
+		margin-top: 350px;
+		height: auto;
+	}
+
+	.timer {
+		margin-left: -160px;
+		position: absolute;
+		width: 578px;
+		height: 320px;
+		background: @white;
+		overflow: hidden;
+	}
+
+	.timer__body {
+		margin: 36px 0 0 36px;
+		width: 510px;
+		height: 250px;
+		overflow: hidden;
+		background: url('../img/timer.jpg') no-repeat center;
+		background-size: cover;
+	}
+
+	.timer__content {
+		height: 60px;
+		margin-top: 90px !important;
+	}
+
+	.action__body__description {
+		padding-left: 50px;
+		height: auto;
+
+		h4 {
+			margin-top: 0px;
+			margin-bottom: 20px;
+			font: 60px @akr-bold;
+			color: @white;
 			text-transform: uppercase;
 		}
 
-		h3 {
-			font: 51px @akr-regular;
-			text-transform: uppercase;
+		h5 {
+			font: 34px @akr-regular;
+			color: @white;
 		}
 
 		p {
-			font: 24px @akr-extralight;
+			font: 24px @akr-light;
 			color: @white !important;
 		}
 
+		span {
+			margin-top: 36px;
+			display: block;
+			font: 60px @akr-regular;
+			color: @white;
+		}
+
+	}
+
+	.action__body__stimulation {
+		margin: -50px 0 0 -80px;
+		position: absolute;
+		width: 500px;
+		height: 500px;
 	}
 
 }
