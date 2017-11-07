@@ -49,12 +49,13 @@ p {
   .about__content {
     width: 509px;
     height: 509px;
+    overflow: hidden;
     background: url('../img/border-gradient.png') no-repeat;
   }
   .about__content__body {
-    margin: 35px 0 0 80px;
-    position: absolute;
-    width: 500px;
+    margin: 55px 0 0 60px;
+    position: relative;
+    width: 400px;
     height: 500px;
   }
   .about__content__body h3 {
@@ -807,7 +808,7 @@ p {
     height: 82px;
   }
   .header__logo {
-    margin: 32px 0 0 0;
+    margin: 32px 0 0 0 !important;
   }
   .navigation {
     margin-top: 62px;
@@ -819,7 +820,7 @@ p {
   }
   .navigation ul li a,
   .navigation ul li a:hover {
-    margin-right: 25px;
+    margin-right: 22px !important;
     display: block;
     font: 17px 'akrobatregular';
     color: #fff;
@@ -912,6 +913,53 @@ p {
   }
 }
 @media only screen and (min-width: 1200px) {
+  .main-screen {
+    height: 1088px;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  .main-screen h2 {
+    margin-top: 282px;
+    margin-bottom: -20px;
+    font: 75px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 51px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 24px 'akrobatextralight';
+    color: #fff !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .main-screen {
+    padding: 120px 0;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+  }
+  .main-screen h2 {
+    margin-top: 0px;
+    margin-bottom: -20px;
+    font: 55px 'akrobatbold';
+    text-transform: uppercase;
+  }
+  .main-screen h3 {
+    font: 31px 'akrobatregular';
+    text-transform: uppercase;
+  }
+  .main-screen p {
+    font: 14px 'akrobatextralight';
+    color: #fff !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
   .map {
     position: relative;
     height: 700px;
@@ -976,9 +1024,9 @@ p {
     height: 700px;
   }
   .map__body {
-    margin: 300px 0 0 0;
+    margin: 350px 0 0 0;
     position: absolute;
-    width: 92%;
+    width: 92% !important;
     height: 305px;
     background: #fff;
     z-index: 99;
@@ -1027,53 +1075,6 @@ p {
     font: 14px 'akrobatsemibold';
     color: #1c59ba !important;
     line-height: 56px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .main-screen {
-    height: 1088px;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
-  }
-  .main-screen h2 {
-    margin-top: 282px;
-    margin-bottom: -20px;
-    font: 75px 'akrobatbold';
-    text-transform: uppercase;
-  }
-  .main-screen h3 {
-    font: 51px 'akrobatregular';
-    text-transform: uppercase;
-  }
-  .main-screen p {
-    font: 24px 'akrobatextralight';
-    color: #fff !important;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .main-screen {
-    padding: 120px 0;
-    height: auto;
-    overflow: hidden;
-    background: url('../img/main-screen.jpg') no-repeat center;
-    background-size: cover;
-    color: #fff;
-  }
-  .main-screen h2 {
-    margin-top: 0px;
-    margin-bottom: -20px;
-    font: 55px 'akrobatbold';
-    text-transform: uppercase;
-  }
-  .main-screen h3 {
-    font: 31px 'akrobatregular';
-    text-transform: uppercase;
-  }
-  .main-screen p {
-    font: 14px 'akrobatextralight';
-    color: #fff !important;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
