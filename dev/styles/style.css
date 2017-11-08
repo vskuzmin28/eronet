@@ -1195,7 +1195,7 @@ p {
   }
   .terms-of-action__content ul li {
     margin-bottom: 36px;
-    height: 39px;
+    height: auto;
     list-style: none;
   }
   .terms-of-action__content ul li span {
